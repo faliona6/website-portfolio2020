@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "testingStyles.css",
+	"sources": [
+		"testingStyles.scss"
+	],
+	"sourcesContent": [
+		".style-testing {\n    font-size: 300px;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,cAAc,CAAC,EACX,SAAS,EAAE,KAAK,GACnB"
+}
