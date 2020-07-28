@@ -29,6 +29,8 @@ url: "https://fionasoetrisno.com" # the base hostname & protocol for your site, 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 # Build settings
 theme: minima
 plugins:
