@@ -1,0 +1,27 @@
+--- 
+---
+
+@import "css/global";
+
+.projects-wrapper
+{
+    max-width: $max-width-page;
+    background-color: $pale-pink;
+    padding: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    vertical-align: middle;
+    position: relative;
+
+    h1 {
+        @include font-azo-black;
+        font-size: 40px;
+    }
+    h2 {
+        @include font-azo-bold;
+        color: $peach;
+        font-size: 20px;
+    }
+}

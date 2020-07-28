@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/css/navbar.css">
+<script src="js/navbar.js"></script>
+
+{% assign tabs = site.data.sites %}
+
+<div class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="\"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src="assets/images/navbar/logo.svg">
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div onclick="enableBurgerMenu()" style="height:37px" class="navbar-logo-wrapper">
+                <object data="assets/images/navbar/hamburgerLogo.svg" type="image/svg+xml" class="burger">
+                </object>
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            {% for item in tabs %}
+               {% if forloop.last == false %}
+                  <li class="bottom-border label li-hidden"><a href="{{ item.url }}">{{ item.title }}</a></li>
+               {% else %}
+                  <li class="label li-hidden"><a href="{{ item.url }}">{{ item.title }}</a></li>
+               {% endif %}
+            {% endfor %}
+         </ul>
+      </div>
+   </div>
+</div>

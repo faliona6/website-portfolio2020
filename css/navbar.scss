@@ -1,0 +1,198 @@
+---
+---
+
+@import "css/global";
+
+
+.tabs {
+   float: right;
+   height: 100%;
+   transition: all 0.5s ease;
+   transform-origin: top;
+   z-index: 0;
+   padding-right: 20px;
+
+
+   @media #{$small} {
+      width: 100%;
+   }
+   @media #{$medium} {
+      width: auto;
+   }
+
+   ul {
+    @media #{$small} {
+        background-color: $pale-pink;
+    }
+    @media #{$medium} {
+        background-color: transparent;
+    }
+    list-style-type: none;
+    margin: 0;
+
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    a:hover {
+        color: $peach;
+        transition: 0.3s;
+    }
+    a {
+        color: $dark-purple;
+        transition: 0.3s;
+    }
+    
+
+   }
+   
+   li {
+      transition: all 0.5s ease;
+      @media #{$small} {
+         display: block;
+         padding: 20px;
+
+      }
+   
+      @media #{$medium} {
+         text-align: left;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+      }
+      @include font-azo-normal;
+      a {
+         color: $dark-purple;
+         text-decoration: none; 
+         padding-right: 25px;
+         font-size: 14px;
+      }
+
+
+   }
+}
+
+.tabs-hidden
+{
+   @media #{$small} {
+      transform: scaleY(0);
+   }
+   @media #{$medium} {
+      transform: scaleY(1);
+      transition: all 0s ease;
+   }
+}
+
+.li-hidden
+{
+   @media #{$small} {
+      opacity: 0;
+   }
+   
+   @media #{$medium} {
+      opacity: 1;
+   }
+}
+
+
+.content {
+   // display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: $max-width-page;
+   height: 100%;
+   vertical-align: middle;
+   position: relative;
+}
+
+// Navbar stuff
+.navbar-logo-container 
+{
+    display: inline-table;
+    height: 100%;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.navbar-logo-wrapper {
+    height: 37px;
+    text-align: left;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navbar-logo {
+    height: 100%;
+    color:purple;
+}
+
+.logo {
+   height: 27px;
+   top: 6px;
+   position:absolute;
+   color: pink;
+
+}
+
+.bar {
+   position: fixed;
+   width: 100%;
+   height: $navbar-height;
+   background-color: $pale-pink;
+   opacity: 0.95;
+   z-index: 5;
+}
+
+// Hamburger menu
+
+.hamburger-icon-container {
+    vertical-align: middle; 
+    position: absolute;
+    right: 0;
+}
+
+.burger {
+   @media #{$medium} {
+      visibility: hidden;
+   }
+   height: 30px;
+   fill: $blue;
+   padding-right: 20px;
+   pointer-events:fill;
+
+}
+
+.svg {
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
+}
+
+
+a.svg:after {
+   content: ""; 
+   position: absolute; 
+   right: 10px;
+   width: 35px;
+   height: 35px;
+   text-align: left;
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   @media #{$medium} {
+      pointer-events: none;
+   }
+ }
+
+
+
+.bottom-border
+{
+   @media #{$small} {
+      border-bottom: 1px solid $pink; 
+   }
+   @media #{$medium} {
+      border:none;
+   }
+}
