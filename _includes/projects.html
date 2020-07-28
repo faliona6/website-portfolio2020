@@ -1,9 +1,60 @@
 <link rel="stylesheet" href="/css/projects.css">
+<script src="https://unpkg.com/scrollreveal"></script>
+
 
 <div class="projects-wrapper">
-    <div class="projects-header">
-        <h1>{{ page.projects-header}}</h1>
-        <h2>{{ page.projects-subheader1}}</h2>
-        <h2>{{ page.projects-subheader2}}</h2>
+    <h1>{{ page.projects-header}}</h1>
+    <h2>{{ page.projects-subheader1}}</h2>
+
+    <!-- Personal Projects-->
+    <div class="projects-container">
+        <div class=" projects-personal-container">
+            {% for project in site.categories.personal %}
+                <div class="project-container">
+                    <a href="{{ project.url }}">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/{{project.thumbnailPath}}">
+                        <h3>{{project.title}}</h3>
+                        <h4>{{project.description}}</h4>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
     </div>
+
+    <h2>{{ page.projects-subheader2}}</h2>
+    
+    <!-- Work Projects-->
+    <div class="projects-container">
+        <div class=" projects-personal-container">
+            {% for project in site.categories.work %}
+                <div class="project-container">
+                    <a href="{{ project.url }}">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/{{project.thumbnailPath}}">
+                        <h3>{{project.title}}</h3>
+                        <h4>{{project.description}}</h4>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Scroll Reveal Stuff -->
+    <script>
+        var optionsHero = {
+           reset: true, origin: 'top', 
+           scale: 0.9,  viewFactor: 0.4,
+           viewOffset: {
+              top: '50',
+              bottom: '50'
+           }
+        }
+        var optionsAbout = {
+           reset: false,
+           scale: 0.99,
+           origin: 'bottom', distance: '50px', duration: 1500
+        }
+        ScrollReveal().reveal('.project-container', optionsAbout);
+     </script>
+
+
 </div>

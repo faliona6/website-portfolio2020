@@ -12,8 +12,34 @@ html { height: 100%; }
 
 .projects-wrapper { max-width: 1078px; background-color: #fff7f4; padding: 30px; margin-left: auto; margin-right: auto; height: auto; vertical-align: middle; position: relative; }
 
+.projects-wrapper a { text-decoration: none; }
+
 .projects-wrapper h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; font-size: 40px; }
 
-.projects-wrapper h2 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #ec9892; font-size: 20px; }
+.projects-wrapper h2 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #ec9892; font-size: 25px; }
+
+.projects-wrapper h3 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #3c305c; font-size: 20px; padding-bottom: 5px; margin-bottom: 0px; text-decoration: none; }
+
+.projects-wrapper h4 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #3c305c; font-size: 15px; padding-top: 0; margin: 0; }
+
+.projects-wrapper .projects-container { text-align: center; }
+
+@media only screen and (min-width : 0px) { .projects-wrapper .projects-container { width: auto; } }
+
+.projects-wrapper .projects-container a { transition: all 0.4s ease-in-out; opacity: 0.85; }
+
+.projects-wrapper .projects-container a:hover { opacity: 1.7; color: #74bcfb; }
+
+.projects-wrapper .project-container { display: inline-block; text-align: left; }
+
+@media only screen and (min-width : 0px) { .projects-wrapper .project-container { margin: auto; padding: 20px 40px; } }
+
+@media only screen and (min-width : 654px) { .projects-wrapper .project-container { padding: 20px; } }
+
+.projects-wrapper .project-thumbnail { border-radius: 5px; }
+
+@media only screen and (min-width : 0px) { .projects-wrapper .project-thumbnail { width: 100%; max-width: none; } }
+
+@media only screen and (min-width : 654px) { .projects-wrapper .project-thumbnail { width: 100%; max-width: 300px; } }
 
 /*# sourceMappingURL=projects.css.map */

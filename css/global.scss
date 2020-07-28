@@ -4,6 +4,7 @@ $medium: "only screen and (min-width : 654px)";
 $large: "only screen and (min-width : 1178px)";
 
 $about-size: "only screen and (max-width : 800px)";
+$project-page-breakpoint: "only screen and (max-width : 789px)";
 
 // Color swatches
 
@@ -38,6 +39,7 @@ $max-width-page: 1078px;
 @mixin font-azo-normal {
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
+    font-weight: 200;
 }
 
 @mixin font-azo-bold {

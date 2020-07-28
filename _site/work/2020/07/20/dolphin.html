@@ -1,0 +1,97 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+   </head>
+   <body>
+        <link rel="stylesheet" href=/css/navbar.css>
+<script src=/js/navbar.js></script>
+
+
+
+<div class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="\"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div onclick="enableBurgerMenu()" style="height:37px" class="navbar-logo-wrapper">
+                <object data= /assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+                </object>
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/about">PROJECTS</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/test">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/officers">MUSIC</a></li>
+               
+            
+               
+                  <li class="label li-hidden"><a href="/contact">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+        <div class="project-hero-container">
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>DOLPHIN FRIENDS</h1>
+                    <h3>CPE 471 Final Project</h3>
+                    <img src="/assets/images/projects/hero/">
+                </div>
+
+                <div class="hero-container">
+                    <h2></h2>
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><p>This is some stuff about the project woot</p>
+</p1>
+            </div>
+        </div>
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

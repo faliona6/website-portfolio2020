@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/css/navbar.css">
-<script src="js/navbar.js"></script>
+<link rel="stylesheet" href={{ "/css/navbar.css" | relative_url }}>
+<script src={{ "js/navbar.js" | relative_url }}></script>
 
 {% assign tabs = site.data.sites %}
 
@@ -7,14 +7,14 @@
    <div class="content">
        <div class="navbar-logo-container">
             <a href="\"class="navbar-logo-wrapper">
-                 <img class="navbar-logo" src="assets/images/navbar/logo.svg">
+                 <img class="navbar-logo" src={{ "assets/images/navbar/logo.svg" | relative_url }}>
             </a>
         </div>
 
       <!-- Hamburger Icon for mobile -->
         <a  class="navbar-logo-container hamburger-icon-container">
             <div onclick="enableBurgerMenu()" style="height:37px" class="navbar-logo-wrapper">
-                <object data="assets/images/navbar/hamburgerLogo.svg" type="image/svg+xml" class="burger">
+                <object data= {{ "assets/images/navbar/hamburgerLogo.svg" | relative_url }} type="image/svg+xml" class="burger">
                 </object>
             </div>
         </a>  

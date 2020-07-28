@@ -1,0 +1,52 @@
+<html>
+   <head>
+        <link rel="stylesheet" href={{ "css/projectPage.css"| relative_url }}>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+   </head>
+   <body>
+        {% include navbar.html %}
+
+        <div class="project-hero-container">
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>{{page.title | upcase}}</h1>
+                    <h3>{{page.description}}</h3>
+                    <img src="{{site.baseurl}}/assets/images/projects/hero/{{page.heroImgPath}}">
+                </div>
+
+                <div class="hero-container">
+                    <h2>{{page.heroDescription}}</h2>
+                    <h4>{{page.madeWithDescription}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1>{{page.content}}</p1>
+            </div>
+        </div>
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

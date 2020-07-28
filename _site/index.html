@@ -3,8 +3,8 @@
       <link rel="stylesheet" href="css/testingStyles.css">
    </head>
    <body>
-         <link rel="stylesheet" href="/css/navbar.css">
-<script src="js/navbar.js"></script>
+         <link rel="stylesheet" href=/css/navbar.css>
+<script src=/js/navbar.js></script>
 
 
 
@@ -12,14 +12,14 @@
    <div class="content">
        <div class="navbar-logo-container">
             <a href="\"class="navbar-logo-wrapper">
-                 <img class="navbar-logo" src="assets/images/navbar/logo.svg">
+                 <img class="navbar-logo" src=/assets/images/navbar/logo.svg>
             </a>
         </div>
 
       <!-- Hamburger Icon for mobile -->
         <a  class="navbar-logo-container hamburger-icon-container">
             <div onclick="enableBurgerMenu()" style="height:37px" class="navbar-logo-wrapper">
-                <object data="assets/images/navbar/hamburgerLogo.svg" type="image/svg+xml" class="burger">
+                <object data= /assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
                 </object>
             </div>
         </a>  
@@ -79,13 +79,120 @@
          
          <div class="projects-container">
             <link rel="stylesheet" href="/css/projects.css">
+<script src="https://unpkg.com/scrollreveal"></script>
+
 
 <div class="projects-wrapper">
-    <div class="projects-header">
-        <h1>PROJECTS</h1>
-        <h2>Personal</h2>
-        <h2>Work</h2>
+    <h1>PROJECTS</h1>
+    <h2>Personal</h2>
+
+    <!-- Personal Projects-->
+    <div class="projects-container">
+        <div class=" projects-personal-container">
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Dolphin Game</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers-copy.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Epic Dance Battle</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers-copy-5.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Losers!</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers-copy-4.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Losers!</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers-copy-3.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Losers!</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/personal/2020/07/25/losers-copy-2.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Losers!</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+        </div>
     </div>
+
+    <h2>Work</h2>
+    
+    <!-- Work Projects-->
+    <div class="projects-container">
+        <div class=" projects-personal-container">
+            
+                <div class="project-container">
+                    <a href="/work/2020/07/25/welcome-to-jekyll.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Welcome to Jekyll!</h3>
+                        <h4>CSC 371 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/work/2020/07/25/welcome-to-jekyll-copy.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Welcome to Jekyll!</h3>
+                        <h4>CSC 371 Final Project</h4>
+                    </a>
+                </div>
+            
+                <div class="project-container">
+                    <a href="/work/2020/07/20/dolphin.html">
+                        <img class="project-thumbnail" src="assets/images/projects/thumbnails/dolphin.png">
+                        <h3>Dolphin Friends</h3>
+                        <h4>CPE 471 Final Project</h4>
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Scroll Reveal Stuff -->
+    <script>
+        var optionsHero = {
+           reset: true, origin: 'top', 
+           scale: 0.9,  viewFactor: 0.4,
+           viewOffset: {
+              top: '50',
+              bottom: '50'
+           }
+        }
+        var optionsAbout = {
+           reset: false,
+           scale: 0.99,
+           origin: 'bottom', distance: '50px', duration: 1500
+        }
+        ScrollReveal().reveal('.project-container', optionsAbout);
+     </script>
+
+
 </div>
          </div>
    </body>

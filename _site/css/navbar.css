@@ -26,7 +26,7 @@ html { height: 100%; }
 
 .tabs ul a { color: #3c305c; transition: 0.3s; }
 
-.tabs li { transition: all 0.5s ease; font-family: azo-sans-web, sans-serif; font-style: normal; }
+.tabs li { transition: all 0.5s ease; font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; }
 
 @media only screen and (min-width : 0px) { .tabs li { display: block; padding: 20px; } }
 

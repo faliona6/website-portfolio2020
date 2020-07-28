@@ -57,6 +57,7 @@ h1 {
             transition: all 1.3s cubic-bezier(.4,.04,.23,1.01), opacity 1.5s ease;
             grid-row-start: 1;
             grid-column-start: 1;  
+            border-radius: 5px;
         }
 
         .slide-img-sides {
