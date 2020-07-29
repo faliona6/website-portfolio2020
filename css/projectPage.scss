@@ -29,6 +29,7 @@
 
     img {
         padding: 20px 0px;
+        width: 468;
         @media #{$project-page-breakpoint} {
             width: 100%;
         }

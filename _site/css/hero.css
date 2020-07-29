@@ -36,8 +36,8 @@ h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600
 
 .slideshow-nav-container { left: 0; text-align: center; padding-top: 30px; }
 
-.slideshow-nav-container img { width: 25px; padding: 40px 4px; }
+.slideshow-nav-container img { width: 25px; padding: 12px 4px; }
 
-.slideshow-nav-container .dotnav { width: 13px; padding: 45px 3px; }
+.slideshow-nav-container .dotnav { width: 13px; padding: 18px 3px; }
 
 /*# sourceMappingURL=hero.css.map */
