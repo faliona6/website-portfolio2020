@@ -8,6 +8,10 @@ html { height: 100%; }
 
 .hero-container { background-color: #fee5db; }
 
+@media (min-width : 0px) { .hero-container { width: fit-content; } }
+
+@media (min-width : 654px) { .hero-container { width: auto; } }
+
 .projects-container { background-color: #fff7f4; }
 
 .project-hero-container { padding-top: 70px; background-color: #fee5db; }
@@ -18,7 +22,7 @@ html { height: 100%; }
 
 .hero-wrapper img { padding: 20px 0px; width: 500px; }
 
-@media only screen and (max-width : 789px) { .hero-wrapper img { width: 100%; } }
+@media (max-width : 789px) { .hero-wrapper img { width: 100%; } }
 
 .hero-wrapper h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; font-size: 40px; color: #3c305c; margin: 0px; padding: 3px 0px; }
 
@@ -30,7 +34,7 @@ html { height: 100%; }
 
 .hero-wrapper .hero-container { padding-top: 110px; padding-right: 15px; width: fit-content; display: inline-block; float: right; width: calc(100vw - 580px); max-width: 478px; }
 
-@media only screen and (max-width : 789px) { .hero-wrapper .hero-container { width: fit-content; max-width: none; float: none; padding: 24px; padding-top: 0px; margin-right: 20px; } }
+@media (max-width : 789px) { .hero-wrapper .hero-container { width: fit-content; max-width: none; float: none; padding: 24px; padding-top: 0px; margin-right: 20px; } }
 
 .copy-wrapper { max-width: 1078px; margin-left: auto; margin-right: auto; vertical-align: middle; height: fit-content; padding: 24px; }
 

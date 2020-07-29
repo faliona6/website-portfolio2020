@@ -1,9 +1,9 @@
-$small: "only screen and (min-width : 0px)";
-$medium: "only screen and (min-width : 654px)";
-$large: "only screen and (min-width : 1178px)";
+$small: "(min-width : 0px)";
+$medium: "(min-width : 654px)";
+$large: "(min-width : 1178px)";
 
-$about-size: "only screen and (max-width : 800px)";
-$project-page-breakpoint: "only screen and (max-width : 789px)";
+$about-size: "(max-width : 800px)";
+$project-page-breakpoint: "(max-width : 789px)";
 
 // Color swatchesgit
 
@@ -64,6 +64,12 @@ html {
 
 .hero-container {
     background-color: $pink;
+    @media #{$small} {
+        width:fit-content;
+    }
+    @media #{$medium} {
+        width:auto;
+    }
 }
 
 .projects-container {

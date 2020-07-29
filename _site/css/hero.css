@@ -8,27 +8,31 @@ html { height: 100%; }
 
 .hero-container { background-color: #fee5db; }
 
+@media (min-width : 0px) { .hero-container { width: fit-content; } }
+
+@media (min-width : 654px) { .hero-container { width: auto; } }
+
 .projects-container { background-color: #fff7f4; }
 
 .hero-wrapper { padding: 70px 30px 30px 30px; padding-top: 70px; margin-left: auto; margin-right: auto; max-width: 1078px; height: auto; vertical-align: middle; position: relative; }
 
 .hero-header { margin: auto; max-width: 550px; padding: 60px; font-size: 13px; text-align: center; }
 
-@media only screen and (min-width : 0px) { .hero-header { padding: 30px; } }
+@media (min-width : 0px) { .hero-header { padding: 30px; } }
 
-@media only screen and (min-width : 654px) { .hero-header { padding: 60px; } }
+@media (min-width : 654px) { .hero-header { padding: 60px; } }
 
 h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #3c305c; }
 
-@media only screen and (min-width : 0px) { h1 { font-size: 18px; } }
+@media (min-width : 0px) { h1 { font-size: 18px; } }
 
-@media only screen and (min-width : 654px) { h1 { font-size: 22px; } }
+@media (min-width : 654px) { h1 { font-size: 22px; } }
 
 .slideshow-container { text-align: center; display: grid; grid-template-columns: 1fr; }
 
-@media only screen and (min-width : 0px) { .slideshow-container { display: grid; grid-template-columns: 1fr; } .slideshow-container img { width: 100%; transition: all 1.3s cubic-bezier(0.4, 0.04, 0.23, 1.01), opacity 1.5s ease; grid-row-start: 1; grid-column-start: 1; border-radius: 5px; } .slideshow-container .slide-img-sides { opacity: 0; width: 100%; } .slideshow-container .slide-hidden { opacity: 0; width: 100%; } }
+@media (min-width : 0px) { .slideshow-container { display: grid; grid-template-columns: 1fr; } .slideshow-container img { width: 100%; transition: all 1.3s cubic-bezier(0.4, 0.04, 0.23, 1.01), opacity 1.5s ease; grid-row-start: 1; grid-column-start: 1; border-radius: 5px; } .slideshow-container .slide-img-sides { opacity: 0; width: 100%; } .slideshow-container .slide-hidden { opacity: 0; width: 100%; } }
 
-@media only screen and (min-width : 1178px) { .slideshow-container { height: 450px; } .slideshow-container img { width: 600px; transition: all 1.3s cubic-bezier(0.4, 0.04, 0.23, 1.01), opacity 1.5s cubic-bezier(0.81, -0.18, 0.37, 0.62); grid-row-start: 1; position: absolute; } .slideshow-container .slide-img-front { max-width: 100%; z-index: 2; margin-left: auto; margin-right: auto; transform: translate(40%); opacity: 1; transition: all 1.5s cubic-bezier(0.45, 0.07, 0.41, 1), opacity 1.5s cubic-bezier(0.8, 0.33, 0.59, 0.92); } .slideshow-container .slide-img-sides { width: 450px; opacity: 1; z-index: 1; opacity: 0.4; } .slideshow-container .slide-img-left { transform: translate(10%, 20%); } .slideshow-container .slide-img-right { transform: translate(140%, 20%); } .slideshow-container .slide-hidden { opacity: 0; width: 400px; z-index: 0; transform: translate(86%, 10%); transition: all 1.5s cubic-bezier(0.45, 0.07, 0.41, 1), opacity 0.5s cubic-bezier(0.8, 0.33, 0.59, 0.92); } }
+@media (min-width : 1178px) { .slideshow-container { height: 450px; } .slideshow-container img { width: 600px; transition: all 1.3s cubic-bezier(0.4, 0.04, 0.23, 1.01), opacity 1.5s cubic-bezier(0.81, -0.18, 0.37, 0.62); grid-row-start: 1; position: absolute; } .slideshow-container .slide-img-front { max-width: 100%; z-index: 2; margin-left: auto; margin-right: auto; transform: translate(40%); opacity: 1; transition: all 1.5s cubic-bezier(0.45, 0.07, 0.41, 1), opacity 1.5s cubic-bezier(0.8, 0.33, 0.59, 0.92); } .slideshow-container .slide-img-sides { width: 450px; opacity: 1; z-index: 1; opacity: 0.4; } .slideshow-container .slide-img-left { transform: translate(10%, 20%); } .slideshow-container .slide-img-right { transform: translate(140%, 20%); } .slideshow-container .slide-hidden { opacity: 0; width: 400px; z-index: 0; transform: translate(86%, 10%); transition: all 1.5s cubic-bezier(0.45, 0.07, 0.41, 1), opacity 0.5s cubic-bezier(0.8, 0.33, 0.59, 0.92); } }
 
 .slideshow-nav-container { left: 0; text-align: center; padding-top: 30px; }
 
