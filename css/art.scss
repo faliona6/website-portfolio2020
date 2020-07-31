@@ -1,0 +1,120 @@
+---
+---
+
+@import "global";
+
+// Hero stuff
+.art-hero-container
+{
+    padding-top: $navbar-height;
+    background-color: $pink;
+}
+
+.hero-wrapper {
+    max-width: $max-width-page;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: fit-content;
+    display: block;
+    overflow: hidden;
+
+    p1 {
+        @include font-azo-bold;
+        color: $dark-purple;
+        font-size: 16px;
+    }
+    h1 {
+        @include font-azo-black;
+        color: $dark-purple;
+        font-size: 40px;
+    }
+
+    .copy-container {
+
+        @media #{$small} {
+            display: block;
+            width: fit-content;
+            max-width: none;
+            padding: 25px;
+        }
+        @media #{$medium} {
+            max-width: 500px;
+            padding: 20px;
+            width: calc(100vw - 500px);
+            display:inline-block;
+        }
+
+        max-width: $max-width-page - 600px;
+        p1 {
+            @include font-azo-normal;
+            color: $dark-purple;
+            font-size: 19px;
+        }
+        h1 {
+            @include font-azo-black;
+            color: $dark-purple;
+            font-size: 40px;
+        }
+    }
+
+    .img-container
+    {
+        height: auto;
+        width: fit-content;
+        margin: auto;
+
+        @media #{$small} {
+            display: block;
+            padding: 20px;
+            padding-bottom: 0px;
+
+        }
+        @media #{$medium} {
+            display:inline-block;
+            float: right;
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 0px;
+
+        }
+
+        .art-img{
+            height: 363px;
+        }
+    }
+}
+    
+
+.art-projects-container
+{
+    max-width: $max-width-page;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: fit-content;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+
+    p1 {
+        @include font-azo-normal;
+        color: $dark-purple;
+        font-size: 16px;
+    }
+    h1 {
+        @include font-azo-black;
+        color: $dark-purple;
+        font-size: 40px;
+    }
+
+    h2 {
+        @include font-azo-black;
+        color: $dark-purple;
+        font-size: 40px;
+    }
+    img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}

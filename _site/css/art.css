@@ -1,0 +1,53 @@
+@font-face { font-family: "AxiaBold"; src: url("../assets/fonts/AxiaBold.otf"); }
+
+@font-face { font-family: "AxiaBlack"; src: url("../assets/fonts/AxiaBlack.otf"); }
+
+body { margin: 0px; }
+
+html { height: 100%; scroll-behavior: smooth; }
+
+.hero-container { background-color: #fee5db; }
+
+@media (min-width : 0px) { .hero-container { width: fit-content; } }
+
+@media (min-width : 654px) { .hero-container { width: auto; } }
+
+.projects-container { background-color: #fff7f4; }
+
+.art-hero-container { padding-top: 70px; background-color: #fee5db; }
+
+.hero-wrapper { max-width: 1078px; margin-left: auto; margin-right: auto; vertical-align: middle; height: fit-content; display: block; overflow: hidden; }
+
+.hero-wrapper p1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #3c305c; font-size: 16px; }
+
+.hero-wrapper h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; color: #3c305c; font-size: 40px; }
+
+.hero-wrapper .copy-container { max-width: 478px; }
+
+@media (min-width : 0px) { .hero-wrapper .copy-container { display: block; width: fit-content; max-width: none; padding: 25px; } }
+
+@media (min-width : 654px) { .hero-wrapper .copy-container { max-width: 500px; padding: 20px; width: calc(100vw - 500px); display: inline-block; } }
+
+.hero-wrapper .copy-container p1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #3c305c; font-size: 19px; }
+
+.hero-wrapper .copy-container h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; color: #3c305c; font-size: 40px; }
+
+.hero-wrapper .img-container { height: auto; width: fit-content; margin: auto; }
+
+@media (min-width : 0px) { .hero-wrapper .img-container { display: block; padding: 20px; padding-bottom: 0px; } }
+
+@media (min-width : 654px) { .hero-wrapper .img-container { display: inline-block; float: right; padding-top: 50px; padding-right: 50px; padding-bottom: 0px; } }
+
+.hero-wrapper .img-container .art-img { height: 363px; }
+
+.art-projects-container { max-width: 1078px; margin-left: auto; margin-right: auto; vertical-align: middle; height: fit-content; display: block; overflow: hidden; padding: 20px; }
+
+.art-projects-container p1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #3c305c; font-size: 16px; }
+
+.art-projects-container h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; color: #3c305c; font-size: 40px; }
+
+.art-projects-container h2 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; color: #3c305c; font-size: 40px; }
+
+.art-projects-container img { width: 100%; padding: 20px 0px; }
+
+/*# sourceMappingURL=art.css.map */

@@ -1,0 +1,201 @@
+---
+---
+
+@import "global";
+
+// Hero stuff
+.about-container
+{
+    padding-top: $navbar-height;
+    background-color: $pink;
+}
+
+.about-wrapper {
+    max-width: $max-width-page;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: 70vh;
+    display: block;
+    overflow: hidden;
+    min-height: 800px;
+
+    
+    @media #{$small} {
+        height:fit-content;
+    }
+    @media #{$large} {
+        height: 70vh;
+    }
+
+    .copy-container {
+
+        @media #{$small} {
+            display: block;
+            width: fit-content;
+            max-width: none;
+            padding: 25px;
+        }
+        @media #{$large} {
+            width: fit-content;
+            max-width: 500px;
+            padding: 20px;
+            display:inline-block;
+        }
+
+        width: calc(100vw - 580px);
+        max-width: $max-width-page - 600px;
+        p1 {
+            @include font-azo-normal;
+            color: $dark-purple;
+            font-size: 16px;
+        }
+        h1 {
+            @include font-azo-black;
+            color: $dark-purple;
+            font-size: 40px;
+        }
+
+    }
+
+    .img-container
+    {
+        height: auto;
+        width: fit-content;
+
+        @media #{$small} {
+            display: block;
+        }
+        @media #{$large} {
+            display:inline-block;
+            float: right;
+            padding-top: 20px;
+            padding-right: 10px;
+
+        }
+
+
+        .about-img-large {
+            @media #{$small} {
+                height: 0px;
+            }
+            @media #{$large} {
+                height: 900px;
+
+            }
+        }
+        .about-img-small {
+            @media #{$small} {
+                height: auto;
+                width: 80%;
+                padding: 30px;
+            }
+            @media #{$large} {
+                height: 0px;
+                width: 0px;
+                padding: 0px;
+            }
+        }
+    }
+
+}
+
+.hero-wrapper {
+    max-width: $max-width-page;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: fit-content;
+    display: block;
+    padding-bottom: 20px;
+
+    .img-container {
+
+        padding: 24px;
+        width: fit-content;
+        display:inline-block;
+        padding-bottom: 0px;
+    }
+
+    img {
+        padding: 20px 0px;
+        width: 468;
+        @media #{$project-page-breakpoint} {
+            width: 100%;
+        }
+    }
+
+    h1 {
+        @include font-azo-black;
+        font-size: 40px;
+        color: $dark-purple;
+        margin: 0px;
+        padding: 3px 0px;
+    }
+
+    h2 {
+        @include font-azo-bold;
+        font-size: 18px;
+        color: $dark-purple;
+    }
+
+    h3 {
+        @include font-azo-normal;
+        color: $dark-purple;
+        font-size: 18px;
+        padding: 0;
+        margin: 0px;
+    }
+
+    h4 {
+        @include font-azo-black;
+        color: $peach;
+        font-size: 13px;
+    }
+
+    .hero-container {
+        padding-top: 110px;
+        padding-right: 15px;
+        width: fit-content;
+        display:inline-block;
+        float: right;
+
+
+        width: calc(100vw - 580px);
+        max-width: $max-width-page - 600px;
+
+
+        @media #{$project-page-breakpoint} {
+            width: fit-content;
+            max-width: none;
+            float:none;
+            padding: 24px;
+            padding-top: 0px;
+            margin-right: 20px;
+        }
+
+    }
+}
+
+// Project description stuff
+.copy-wrapper
+{
+    max-width: $max-width-page;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: fit-content;
+    padding: 24px;
+
+    p {
+        @include font-azo-normal;
+        color: $dark-purple;
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+}

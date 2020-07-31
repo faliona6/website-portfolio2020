@@ -1,13 +1,10 @@
 
-- title: PROJECTS
-  url: /about
-
 - title: ART
-  url: /test
+  url: /art
   
 - title: MUSIC
   url: /officers
 
 - title: ABOUT
-  url: /contact
+  url: about
 

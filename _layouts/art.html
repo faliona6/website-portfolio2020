@@ -1,0 +1,56 @@
+<html>
+   <head>
+        <link rel="stylesheet" href={{ "css/art.css"| relative_url }}>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+   </head>
+   <body>
+        {% include navbar.html %}
+
+        <div class="art-hero-container">
+            <div class="hero-wrapper">
+                <div class="copy-container">
+                    <h1>{{page.title}}</h1>
+                    <p1>{{page.content}}</p1>
+                </div>
+                <div class="img-container">
+                    <img class="art-img" src="{{site.baseurl}}/assets/images/art/hero/flower.svg"> 
+                </div>
+            </div>
+        </div>
+
+        <div class="art-projects-container">
+            {% for artwork in site.categories.artwork %}
+                <div class="artwork-container">
+                    <h2>{{artwork.title}}</h2>
+                    <p1>{{artwork.description}}</p1>
+                    <p1>{{artwork.content}}</p1>
+                </div>
+            {% endfor %}
+
+        </div>
+
+        {% include footer.html %}
+
+    
+        <script>
+            var optionsHero = {
+               reset: true, origin: 'top', 
+               scale: 0.9,  viewFactor: 0.4,
+               viewOffset: {
+                  top: '50',
+                  bottom: '50'
+               }
+            }
+            var optionsAbout = {
+               reset: false,
+               scale: 0.99,
+               origin: 'bottom', distance: '10px', duration: 1500
+            }
+            ScrollReveal().reveal('.artwork-container', optionsAbout);
+        </script>
+
+
+   </body>
+</html>
