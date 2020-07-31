@@ -30,12 +30,13 @@
         color: $pink;
         font-size: 40px;
         margin-bottom: 0px;
+        line-height: 46px;
     }
     h2 {
+
         @include font-azo-black;
         color: $pale-pink;
-        font-size: 18px;
-        margin-top: 5px;
+        font-size: 17px;
         font-weight: 600;
     }
 

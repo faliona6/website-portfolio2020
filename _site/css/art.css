@@ -34,7 +34,7 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .hero-wrapper .img-container { height: auto; width: fit-content; margin: auto; }
 
-@media (min-width : 0px) { .hero-wrapper .img-container { display: block; padding: 20px; padding-bottom: 0px; } }
+@media (min-width : 0px) { .hero-wrapper .img-container { display: block; padding: 25px; padding-bottom: 0px; } }
 
 @media (min-width : 654px) { .hero-wrapper .img-container { display: inline-block; float: right; padding-top: 50px; padding-right: 50px; padding-bottom: 0px; } }
 
