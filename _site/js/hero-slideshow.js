@@ -51,6 +51,12 @@ function InitializeDotNav()
         }
         navContainer.appendChild(dot);
     }
+    var rightNavButton = document.createElement("img");
+    rightNavButton.style.display = "inline-flex";
+    rightNavButton.direction = 1;
+    rightNavButton.addEventListener("click", OnClick, false);
+    rightNavButton.src = "assets/images/hero/icons/rightArrow.svg";
+    navContainer.appendChild(rightNavButton);
 }
 
 // For nav buttons
@@ -76,6 +82,7 @@ function SetOnClick(imgSlide, direction)
 
 function OnClick()
 {
+    console.log(this);
     var direction = this.direction;
     var slideshowContainer = document.getElementsByClassName("slideshow-container")[0];
     RemoveAllEventListenersFromParent(slideshowContainer);
