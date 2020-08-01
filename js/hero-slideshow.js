@@ -1,17 +1,17 @@
 // Slideshow state variables
 var curSlideIndex = 1; // start on 1, 0 is on the left
-var numOfSlides = 4;
+var numOfSlides = 5;
 
 // Start functions for loading images into html
 function StartLoadImages()
 {
     var slideshowContainer = document.getElementsByClassName("slideshow-container")[0];
-    for (var i = 0; i <= numOfSlides; i++) {
+    for (var i = 0; i < numOfSlides; i++) {
         var imgSlide = document.createElement("img");
         if (i == 0) {
             imgSlide.classList.add("slide-img-left");
             imgSlide.classList.add("slide-img-sides");
-            SetOnClick(imgSlide, 1);
+            SetOnClick(imgSlide, -1);
         }
         else if (i == 1) {
             imgSlide.classList.add("slide-img-front");
@@ -20,7 +20,7 @@ function StartLoadImages()
         {
             imgSlide.classList.add("slide-img-right");
             imgSlide.classList.add("slide-img-sides");
-            SetOnClick(imgSlide, -1);
+            SetOnClick(imgSlide, 1);
         }
         else {
             imgSlide.classList.add("slide-hidden");
@@ -31,6 +31,7 @@ function StartLoadImages()
         slideshowContainer.appendChild(imgSlide);
     }
     InitializeDotNav();
+    console.log(curSlideIndex);
 }
 
 function InitializeDotNav()
@@ -82,18 +83,18 @@ function OnClick()
 
     // switch the slide classes
     // getting the previous and next slide indices
+
     var prevSlideIndex = curSlideIndex - 1 < 0 ? numOfSlides - 1 : curSlideIndex - 1;
     var nextSlideIndex = (curSlideIndex + 1) % numOfSlides;
 
     var prevPrevSlideIndex = prevSlideIndex - 1 < 0 ? numOfSlides - 1 : prevSlideIndex - 1;
     var nextNextSlideIndex = (nextSlideIndex + 1) % numOfSlides;
-
     console.log(prevPrevSlideIndex, prevSlideIndex, curSlideIndex, nextSlideIndex,  nextNextSlideIndex);
 
     var toBeCurrentSlide, toBeNextSlide, toBeHidden, toBePrevSlide;
     
     // Setting which slides will do what
-    if (direction > 0) {
+    if (direction < 0) {
         toBeCurrentSlide = prevSlideIndex;
         toBeNextSlide = curSlideIndex;
         toBeHidden = nextSlideIndex;
@@ -105,6 +106,8 @@ function OnClick()
         toBeHidden = prevSlideIndex;
         toBePrevSlide = curSlideIndex;
     }
+
+    console.log(toBeCurrentSlide, toBeNextSlide, toBeHidden, toBePrevSlide);
 
     // updating classes
     document.getElementById("slide_" + toBeCurrentSlide).className = "";
@@ -119,20 +122,23 @@ function OnClick()
     document.getElementById("slide_" + toBePrevSlide).classList.add("slide-img-left");
     document.getElementById("slide_" + toBePrevSlide).classList.add("slide-img-sides");
 
-    // updating navbutton
-    document.getElementById("dotnav_" + prevSlideIndex).src = "assets/images/hero/icons/dotEmtpy.svg";
-    document.getElementById("dotnav_" + nextSlideIndex).src = "assets/images/hero/icons/dotEmtpy.svg";
-    document.getElementById("dotnav_" + curSlideIndex).src = "assets/images/hero/icons/dotFull.svg";
+    // change dotnav empty
+    var x = (curSlideIndex == 0) ? numOfSlides - 1 : ((curSlideIndex - 1) % numOfSlides);
 
+    document.getElementById("dotnav_" + x).src = "assets/images/hero/icons/dotEmtpy.svg";
 
     // updating the indices
     curSlideIndex = curSlideIndex + direction < 0 ? numOfSlides - 1 : (curSlideIndex + direction) % numOfSlides;
 
-
+     // updating navbutton full
+     x = (curSlideIndex == 0) ? numOfSlides - 1 : ((curSlideIndex - 1) % numOfSlides);
+     document.getElementById("dotnav_" + x).src = "assets/images/hero/icons/dotFull.svg";
 
     // updating events
     SetOnClick(document.getElementById("slide_" + toBePrevSlide), -1);
     SetOnClick(document.getElementById("slide_" + toBeNextSlide), 1);
+    console.log("curSlide: ", curSlideIndex);
+
 }
 
 function RemoveAllEventListenersFromParent(parent)
