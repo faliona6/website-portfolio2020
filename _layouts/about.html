@@ -2,6 +2,8 @@
    <head>
       <link rel="stylesheet" href={{ "css/about.css"| relative_url }}>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://unpkg.com/scrollreveal"></script>
+
    </head>
    <body>
         {% include navbar.html %}
@@ -20,6 +22,15 @@
         </div>
 
         {% include footer.html %}
+
+        <script>
+            var optionsAbout = {
+               reset: false,
+               scale: 0.99,
+               origin: 'bottom', distance: '10px', duration: 1500
+            }
+            ScrollReveal().reveal('.copy-container', optionsAbout);
+        </script>
 
    </body>
 </html>

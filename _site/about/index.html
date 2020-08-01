@@ -2,6 +2,8 @@
    <head>
       <link rel="stylesheet" href=/website-portfolio2020/css/about.css>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://unpkg.com/scrollreveal"></script>
+
    </head>
    <body>
         <link rel="stylesheet" href=/website-portfolio2020/css/navbar.css>
@@ -78,6 +80,15 @@ Hello there! My name is Fiona Soetrisno and I am currently studying computer sci
         </div>
     </div>
 </div>
+
+        <script>
+            var optionsAbout = {
+               reset: false,
+               scale: 0.99,
+               origin: 'bottom', distance: '10px', duration: 1500
+            }
+            ScrollReveal().reveal('.copy-container', optionsAbout);
+        </script>
 
    </body>
 </html>

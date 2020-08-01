@@ -40,6 +40,12 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .copy-wrapper p { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #3c305c; font-size: 16px; }
 
+.copy-wrapper h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #ec9892; font-size: 24px; }
+
 .copy-wrapper img { width: 100%; vertical-align: middle; }
+
+.copy-wrapper a { text-decoration: none; color: #3e94db; transition: all 0.3s; }
+
+.copy-wrapper a:hover { color: #365699; }
 
 /*# sourceMappingURL=projectPage.css.map */
