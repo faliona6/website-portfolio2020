@@ -1,16 +1,17 @@
 
 function enableBurgerMenu()
 {
-   console.log("hello");
    var tabs = document.getElementsByClassName("tabs")[0];
    var listItems = document.getElementsByClassName("label");
    if (tabs.classList.contains("tabs-hidden")) {
+      console.log("tabs are hidden");
       tabs.classList.remove("tabs-hidden");
       for (let item of listItems) {
          item.classList.remove("li-hidden");
       }
    }
    else {
+      console.log("tabs are not hidden");
       tabs.classList.add("tabs-hidden");
       for (let item of listItems) {
          item.classList.add("li-hidden");
@@ -30,7 +31,11 @@ window.onscroll = function() {
    }
 
    if (isMobile) {
-      if (prevScrollpos > currentScrollPos) {
+      if (currentScrollPos < 50)
+      {
+         document.getElementById("navbar").style.top = "0";
+      }
+      else if (prevScrollpos > currentScrollPos) {
          document.getElementById("navbar").style.top = "0";
       } else {
          document.getElementById("navbar").style.top = "-150px";
