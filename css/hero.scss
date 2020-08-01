@@ -77,7 +77,7 @@ h1 {
         height: 450px;
         img {
             width: 600px;
-            transition: all 1.3s cubic-bezier(.4,.04,.23,1.01), opacity 1.5s cubic-bezier(.81,-0.18,.37,.62);
+            transition: all 1.3s cubic-bezier(.4,.04,.23,1.01), opacity 1.5s ease-in-out;
 
             grid-row-start: 1;
             position: absolute;
@@ -91,7 +91,7 @@ h1 {
             transform: translate(40%);
             //transition: opacity 2s ease-in-out, all 1s ease-in-out;
             opacity: 1;
-            transition: all 1.5s cubic-bezier(.45,.07,.41,1),   opacity 1.5s cubic-bezier(.8,.33,.59,.92);
+            transition: all 1.5s cubic-bezier(.45,.07,.41,1),   opacity 1.5s ease-in-out;
         }
         .slide-img-sides {
             width: 450px;
@@ -103,6 +103,7 @@ h1 {
         }
         .slide-img-left {
             transform: translate(10%, 20%);
+
         }
         .slide-img-right {
             transform: translate(140%, 20%);
@@ -113,6 +114,28 @@ h1 {
             z-index: 0;
             transform: translate(86%, 10%);
             transition: all 1.5s cubic-bezier(.45,.07,.41,1),   opacity 0.5s cubic-bezier(.8,.33,.59,.92);
+        }
+
+        // Slide transitions
+        .slide-left-to-mid
+        {
+            animation: slideMoveLeft 1.5s;
+            @keyframes slideMoveLeft
+            {
+                0% {transform: translate(10%, 20%)}
+                25% {transform:translate(-5%, 20%)}
+                100% {transform:translate(40%)}
+            }
+        }
+        .slide-right-to-mid
+        {
+            animation: slideMoveRight 1.5s;
+            @keyframes slideMoveRight
+            {
+                0% {transform: translate(140%, 20%)}
+                25% {transform:translate(148%, 20%)}
+                100% {transform:translate(40%)}
+            }
         }
     }
 }
