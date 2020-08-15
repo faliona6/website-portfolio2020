@@ -7,12 +7,13 @@
    <body>
         {% include navbar.html %}
 
-        <div class="project-hero-container">
+   <div class="project-hero-container">
+              
             <div class="hero-wrapper">
                 <div class="img-container">
                     <h1>{{page.title | upcase}}</h1>
                     <h3>{{page.description}} | {{page.month}} {{page.year}}</h3>
-                    <img src="{{site.baseurl}}/assets/images/projects/hero/{{page.heroImgPath}}">
+                    <img src="{{site.baseurl}}/assets/images/projects/{{page.heroImgPath}}">
                 </div>
 
                 <div class="hero-container">

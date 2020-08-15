@@ -1,0 +1,72 @@
+---
+layout: projectPage
+title:  "Pit Stop"
+date:   2020-07-25 11:11:48 -0700
+month: Jan
+year: 2020
+categories: personal
+thumbnailPath: "pitStop/thumb.png"
+description: Global Game Jam 2020
+heroImgPath: "pitStop/hero2.png"
+heroDescription: Pit Stop is a game made for Global Game Jam 2020. The theme of the jam was repair, so in our game, you play as a ship that crashed on a random planet who has to repair and upgrade their ship in order to make it back home. The game was made by  Fiona Soetrisno, Jaelyn Domingo, John Manard III, and Tian Wong.
+madeWithDescription: "Using: Unity, C#, Maya"
+heroColor: ffd2a3
+---
+# How to Play
+## To play my game, view it on my [itch.io][itch-link] page! You can view the code on my [github][github-link].
+
+![img1](../../../../assets/images/projects/pitStop/chase2.png)
+
+# About the Game
+
+<div class="gif">
+  <img src="https://media.giphy.com/media/ge1rUaUMba6PFUVTie/giphy.gif">
+</div>
+
+
+
+<!-- ![My helpful screenshot](https://media.giphy.com/media/WVG6qZNBkO5qP2a4ao/giphy.gif) -->
+
+Pit Stop is a 3D racing game where you collect gears to repair and upgrade your ship at the Pit Stops! The goal is to get to the giant golden gear, but you can't reach it until you get at least the jump and boost upgrades. The police are chasing you because you're stealing all of their gears. Your ship also breaks a bit if you run into things a lot, so spend 5 gears in the pit stop to repair your ship and gain some health back.
+
+In addition to a boost and jump upgrade, you can plant mines that explode and temporarily stun any enemy that hits it!
+
+
+
+<!-- <video width="320" height="240" controls>
+  <source src="../../../../../website-portfolio2020/assets/images/projects/polyChicken/lvl1.mp4" type="video/mp4">
+</video>
+
+
+
+<img src="../../../../assets/images/projects/polyChicken/level2.png">
+<iframe width="100%" height="auto" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
+
+![img1](../../../../assets/images/projects/pitStop/pitstop2.png)
+
+At the end of the game, get the upgrades and reach the golden pit stop in order to make it back home.
+
+
+<div class="gif">
+  <img src="https://media.giphy.com/media/kBSUA7XiWg4Oaxj6Ek/giphy.gif">
+</div>
+
+# Process
+
+The game was made for Global Game Jam, so we had 48 hours to make the game. I did a lot of the game mechanics, such as player movement, enemy AI, boost and mine abilities, pit stop logic, and general game loop. I also worked on the particle effects for the ship, level design, and overall look of the game.
+
+After the game jam, I spend around a day polishing it up and doing bug fixes.
+
+Overall, I really enjoy doing game jams and working in a team! For this project, Jaelyn did almost all of the models, such as the ship, police ships, and buildings. It's always great to be able to work with both artists and programmers at game jams.
+
+Please check out and play the game on itch!
+
+![img1](../../../../assets/images/projects/pitStop/ending-crop.png)
+
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+[itch-link]: https://faliona6.itch.io/pit-stop
+[github-link]:https://github.com/faliona6

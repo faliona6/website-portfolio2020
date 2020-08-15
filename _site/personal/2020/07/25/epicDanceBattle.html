@@ -1,0 +1,136 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/website-portfolio2020/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+        <link rel="stylesheet" href=/website-portfolio2020/css/navbar.css>
+<script src=/website-portfolio2020/js/navbar.js></script>
+
+
+
+<div id="navbar" class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="/website-portfolio2020/"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/website-portfolio2020/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div style="height:37px" class="navbar-logo-wrapper">
+                <img onclick="enableBurgerMenu()" src= /website-portfolio2020/assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="/website-portfolio2020/#projects-container">PROJECTS</a></li>
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/website-portfolio2020//art">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/website-portfolio2020//officers">MUSIC</a></li>
+               
+            
+               
+                  <li class="label li-hidden"><a href="/website-portfolio2020/about">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+   <div class="project-hero-container">
+              
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>EPIC DANCE BATTLE</h1>
+                    <h3>3D Modeling Final Project | Jan 2020</h3>
+                    <img src="/website-portfolio2020/assets/images/projects/danceBattle/hero.png">
+                </div>
+
+                <div class="hero-container">
+                    <h2>Epic Dance Battle is an animated short made in my Intro to 3D Modeling class and created by me and Jaelyn Domingo. Follows the story of two creatures that started off in a fight, but after a nice dance battle, became friends.</h2>
+                    <h4>Using: Maya, Unity, Substance Painter</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><h1 id="watch-the-short">Watch the Short</h1>
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/neXDZxjesew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h1 id="about-the-short">About the Short</h1>
+<p><img src="../../../../assets/images/projects/danceBattle/body1.png" alt="img1" /></p>
+
+<p>Our 3D modeling class actually had nothing to do with animation, but for our final project, we decided to showcase our 3D model using a short. This was my first experience using Maya, and I designed and modeled “pink guy” (the pink bunny) and textured him in Substance Painter. I also did all of the cinematography work in Unity using Cinemachine. We used Mixamo for all of the animations.</p>
+
+<p>To be honest, since we didn’t know how to do any animations and they would probably turn out a bit janky, we tried to make the concept of the short comedic, including the character designs.</p>
+
+<!-- <video width="320" height="240" controls>
+  <source src="../../../../../website-portfolio2020/assets/images/projects/polyChicken/lvl1.mp4" type="video/mp4">
+</video>
+
+
+
+<img src="../../../../assets/images/projects/polyChicken/level2.png">
+<iframe width="100%" height="auto" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
+
+<p><img src="../../../../assets/images/projects/danceBattle/body3.png" alt="img1" /></p>
+
+<p>It was also my first time using Substance Painter, so I got to experiment with different texture maps, such as normal and rougness maps, to give my character more texture. I also got to experiment with post processing to make the scenes look nicer.</p>
+
+</p1>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href=/website-portfolio2020/css/footer.css>
+
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <h1>Let's be in touch.</h1>
+        <h2>Contact me at: fiona.soetrisno@gmail.com</h2>
+        <div class="icons-container">
+            <a href="https://www.linkedin.com/in/fionasoetrisno">
+                <img src="/website-portfolio2020/assets/images/footer/icon-linkedin.svg">
+            </a>
+            <a href="https://www.github.com/faliona6">
+                <img src="/website-portfolio2020/assets/images/footer/icon-github.svg">
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

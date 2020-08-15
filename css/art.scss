@@ -112,6 +112,14 @@
         @include font-azo-black;
         color: $dark-purple;
         font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    h3 
+    {
+        @include font-azo-normal;
+        color: $peach;
+        font-size: 20px;
     }
     img {
         width: 100%;
