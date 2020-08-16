@@ -1,0 +1,133 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/website-portfolio2020/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+        <link rel="stylesheet" href=/website-portfolio2020/css/navbar.css>
+<script src=/website-portfolio2020/js/navbar.js></script>
+
+
+
+<div id="navbar" class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="/website-portfolio2020/"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/website-portfolio2020/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div style="height:37px" class="navbar-logo-wrapper">
+                <img onclick="enableBurgerMenu()" src= /website-portfolio2020/assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="/website-portfolio2020/#projects-container">PROJECTS</a></li>
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/website-portfolio2020//art">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/website-portfolio2020//officers">MUSIC</a></li>
+               
+            
+               
+                  <li class="label li-hidden"><a href="/website-portfolio2020/about">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+   <div class="project-hero-container">
+              
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>BOBA IS YOU</h1>
+                    <h3>CPE 203 Final Project |  2019</h3>
+                    <img src="/website-portfolio2020/assets/images/projects/bobaIsYou/thumb.png">
+                </div>
+
+                <div class="hero-container">
+                    <h2>Boba is You is a recreation of the game Baba is You that I made for my Object Oriented Programming CPE 203 course in Java. It's a 2D puzzle game where the blocks around you spell out the rules of the game. Re-arrange the blocks to solve the puzzles and win the game!</h2>
+                    <h4>Using: Java</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><h1 id="how-to-play">How to Play</h1>
+<h2 id="play-the-game-and-download-it-here-and-view-the-source-code-on-my-github">Play the game and download it <a href="https://github.com/faliona6/boba-is-you-jar">here</a>, and view the source code on my <a href="https://github.com/faliona6/boba-is-you">github</a>.</h2>
+
+<p>Boba is You is a 2D puzzle game where you rearrange the text blocks in order to win and solve puzzles!</p>
+
+<p><img src="../../../../assets/images/projects/bobaIsYou/lvl1.PNG" alt="img1" /></p>
+
+<h1 id="demo">Demo</h1>
+
+<p>I highly recommend playing the game before watching the video of the playthrough since it is a puzzle game! But if not, here is a demo of the game.</p>
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/ilT1bIYRp-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h1 id="about-the-game">About the Game</h1>
+
+<p>It was really fun coding the logic of the game, and doing it in an object-oriented design made a lot of sense so it was a perfect idea for my final project. There are a lot of interesting rules that come out of the gameplay itself, such as playing as the wall.</p>
+
+<p><img src="../../../../assets/images/projects/bobaIsYou/stone.png" alt="img1" /></p>
+
+<p>I drew all of the pixel art myself as well with the intent to recreate the art style from the original game. Because I was using Java, I had to render all of the images myself and create a simple game engine. Overall, this project was fun to work on and if you like it, I highly recommend playing the original game Baba is You!</p>
+
+</p1>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href=/website-portfolio2020/css/footer.css>
+
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <h1>Let's be in touch.</h1>
+        <h2>Contact me at: fiona.soetrisno@gmail.com</h2>
+        <div class="icons-container">
+            <a href="https://www.linkedin.com/in/fionasoetrisno">
+                <img src="/website-portfolio2020/assets/images/footer/icon-linkedin.svg">
+            </a>
+            <a href="https://www.github.com/faliona6">
+                <img src="/website-portfolio2020/assets/images/footer/icon-github.svg">
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

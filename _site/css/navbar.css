@@ -46,7 +46,7 @@ html { height: 100%; scroll-behavior: smooth; }
 
 @media (min-width : 654px) { .li-hidden { opacity: 1; } }
 
-.content { margin-left: auto; margin-right: auto; max-width: 1078px; height: 100%; vertical-align: middle; position: relative; }
+.content { margin-left: auto; margin-right: auto; max-width: 1178px; height: 100%; vertical-align: middle; position: relative; }
 
 .navbar-logo-container { display: inline-table; height: 100%; text-align: left; padding-left: 24px; }
 

@@ -14,7 +14,7 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .projects-container { background-color: #fff7f4; }
 
-.projects-wrapper { max-width: 1078px; background-color: #fff7f4; padding: 30px; margin-left: auto; margin-right: auto; height: auto; vertical-align: middle; position: relative; padding-bottom: 55px; }
+.projects-wrapper { max-width: 1178px; background-color: #fff7f4; padding: 30px; margin-left: auto; margin-right: auto; height: auto; vertical-align: middle; position: relative; padding-bottom: 55px; }
 
 .projects-wrapper a { text-decoration: none; }
 
@@ -44,6 +44,6 @@ html { height: 100%; scroll-behavior: smooth; }
 
 @media (min-width : 0px) { .projects-wrapper .project-thumbnail { width: 100%; max-width: none; } }
 
-@media (min-width : 654px) { .projects-wrapper .project-thumbnail { width: 100%; max-width: 300px; } }
+@media (min-width : 654px) { .projects-wrapper .project-thumbnail { width: 100%; max-width: 336px; } }
 
 /*# sourceMappingURL=projects.css.map */
