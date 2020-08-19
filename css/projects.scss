@@ -18,6 +18,11 @@
 
     a {
         text-decoration: none;
+        color: #3e94db;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: #365699;
     }
 
 
@@ -51,6 +56,15 @@
         font-size: 15px;
         padding-top:0;
         margin:0;
+    }
+
+    h5 {
+        @include font-azo-bold;
+        padding-left: 39px;
+        font-size: 19px;
+        color: $dark-purple;
+        margin-top: 0;
+
     }
 
     //For individual project wrapper

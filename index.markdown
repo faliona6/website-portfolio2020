@@ -11,3 +11,9 @@ projects-subheader1: Personal
 projects-subheader2: Work
 
 ---
+
+View more projects on my [devpost][devpost-link], code on [github][github-link], and games on [itch.io][itch-link].
+
+[github-link]:https://github.com/faliona6
+[itch-link]: https://faliona6.itch.io
+[devpost-link]: https://devpost.com/faliona6?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav

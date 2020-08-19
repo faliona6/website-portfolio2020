@@ -5,7 +5,7 @@ date:   2020-07-25 11:11:48 -0700
 month: Jan
 year: 2020
 categories: personal
-thumbnailPath: "dolphinFriends/thumb2.png"
+thumbnailPath: "dolphinFriends/thumb-actual.png"
 description: Intro to Graphics Final Project
 heroImgPath: "dolphinFriends/hero2.png"
 heroDescription: Dolphin Friends was made for CPE 471, Intro to Graphics. It was my first time delving into shaders and learning how the graphics pipeline works, and I really enjoyed it! We essentially created our own simple game engine from scratch.

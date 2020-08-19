@@ -1,12 +1,12 @@
 ---
 layout: projectPage
-title:  "Epic Dance Battle"
+title:  "PLACEHOLDER!!"
 date:   2020-07-25 11:11:48 -0700
 month: Jan
 year: 2020
 categories: personal
-thumbnailPath: "polyChicken/thumb.png"
-description: CPE 471 Final Project
+thumbnailPath: "danceBattle/thumb2.png"
+description: (Dont Click)
 heroImgPath: "dolphin.png"
 heroDescription: Dolphin Friends is a 3D game created in C++ and OpenGL for my Introduction to Graphics final project. It was my frist time using any graphics library, and was super fun to make. We made a very simple, lightweight game engine from scratch, including all of the rendering, lighting, texturing, shaders, etc.
 madeWithDescription: "Using: C++, OpenGL, and Maya"

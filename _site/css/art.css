@@ -48,8 +48,8 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .art-projects-container h2 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 800; color: #3c305c; font-size: 40px; margin-bottom: 0px; }
 
-.art-projects-container h3 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #ec9892; font-size: 20px; }
+.art-projects-container h3 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #ec9892; font-size: 20px; margin-bottom: 4px; margin-top: 6px; }
 
-.art-projects-container img { width: 100%; padding: 20px 0px; }
+.art-projects-container img { padding: 20px 0px; max-height: 100vh; max-width: 100%; }
 
 /*# sourceMappingURL=art.css.map */

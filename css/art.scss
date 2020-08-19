@@ -120,9 +120,12 @@
         @include font-azo-normal;
         color: $peach;
         font-size: 20px;
+        margin-bottom: 4px;
+        margin-top: 6px;
     }
     img {
-        width: 100%;
         padding: 20px 0px;
+        max-height: 100vh;
+        max-width: 100%;
     }
 }

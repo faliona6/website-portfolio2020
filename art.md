@@ -4,4 +4,4 @@ title: ARTWORK
 permalink: /art/
 ---
 
-Hi There! Here is some of the art that I've worked on for the past couple years. enjoy! I've done some of this stuff for projects, for school work, and for personal stuff. I have experience in Illustrator, Photoshop, Paint Tool Sai, maya, and some other stuff. This is just placeholder text, so don't worry I'll fix it later. Sorry it's bad.
+Here are some of my art pieces that I've worked on. This includes projects for my digital art courses and personal projects. I mostly do art and illustrations on the side, but I have a lot of fun working on them.

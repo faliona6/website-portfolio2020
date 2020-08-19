@@ -1,0 +1,11 @@
+---
+title:  "Magazine Spread Illustration"
+date:   2020-07-25 11:11:48 -0700
+categories: artwork
+tools: Procreate, Illustrator, InDesign
+description: Made for my Digital Art II class where we had to design a magazine illustration and spread based on a given article.
+---
+![My helpful screenshot](../assets/images/art/p2-bg2.png)
+
+![My helpful screenshot](../assets/images/art/p2-final-editorial-soetrisno.png)
+
