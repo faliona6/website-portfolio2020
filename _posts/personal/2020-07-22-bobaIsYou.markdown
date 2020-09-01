@@ -7,7 +7,7 @@ year: 2019
 categories: personal
 thumbnailPath: "bobaIsyou/thumb2.png"
 description: CPE 203 Final Project
-heroImgPath: "bobaIsYou/thumb.png"
+heroImgPath: "bobaIsyou/thumb.png"
 heroDescription: Boba is You is a recreation of the game Baba is You that I made for my Object Oriented Programming CPE 203 course in Java. It's a 2D puzzle game where the blocks around you spell out the rules of the game. Re-arrange the blocks to solve the puzzles and win the game! 
 madeWithDescription: "Using: Java"
 ---
@@ -17,7 +17,7 @@ madeWithDescription: "Using: Java"
 Boba is You is a 2D puzzle game where you rearrange the text blocks in order to win and solve puzzles! 
 
 
-![img1](../../../../assets/images/projects/bobaIsYou/lvl1.PNG)
+![img1](../../../../assets/images/projects/bobaIsyou/lvl1.PNG)
 
 # Demo
 
@@ -29,7 +29,7 @@ I highly recommend playing the game before watching the video of the playthrough
 
 It was really fun coding the logic of the game, and doing it in an object-oriented design made a lot of sense so it was a perfect idea for my final project. There are a lot of interesting rules that come out of the gameplay itself, such as playing as the wall.
 
-![img1](../../../../assets/images/projects/bobaIsYou/stone.png)
+![img1](../../../../assets/images/projects/bobaIsyou/stone.png)
 
 I drew all of the pixel art myself as well with the intent to recreate the art style from the original game. Because I was using Java, I had to render all of the images myself and create a simple game engine. Overall, this project was fun to work on and if you like it, I highly recommend playing the original game Baba is You!
 
