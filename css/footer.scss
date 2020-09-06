@@ -43,6 +43,15 @@
 
     }
 
+    h3 {
+        font-size: 12px;
+        color: $peach;
+        @include font-azo-black;
+        font-weight: 300;
+        padding-top: 133px;
+        float:right;
+    }
+
     .email-icon
     {
         display:inline-block;

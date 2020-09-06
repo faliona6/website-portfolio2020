@@ -23,7 +23,7 @@ madeWithDescription: "Using: Unity, C#, Maya"
 </div>
 <!-- ![My helpful screenshot](https://media.giphy.com/media/WVG6qZNBkO5qP2a4ao/giphy.gif) -->
 
-PolyChicken follows a chicken wanting to meet up with the shining golden chicken. However, the chicken is not very smart and can only go in one direction! Guide the chicken using the arrows in your inventory to change the direction of the chicken and solve the puzzle. Along the way, the chicken loses stamina as it runs. You can replenish your stamina by collecting the baby chicks around the map (because of course every parent gets their stamina replenished when they are with their kids)! When the chicken is at a higher stamina, it goes faster.sdf
+PolyChicken follows a chicken wanting to meet up with the shining golden chicken. However, the chicken is not very smart and can only go in one direction! Guide the chicken using the arrows in your inventory to change the direction of the chicken and solve the puzzle. Along the way, the chicken loses stamina as it runs. You can replenish your stamina by collecting the baby chicks around the map (because of course every parent gets their stamina replenished when they are with their kids)! When the chicken is at a higher stamina, it goes faster.
 
 <!-- <video width="320" height="240" controls>
   <source src="../../../../../website-portfolio2020/assets/images/projects/polyChicken/lvl1.mp4" type="video/mp4">

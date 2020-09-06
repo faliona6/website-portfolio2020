@@ -17,11 +17,11 @@ This procedural moss shader is meant to be used for Alyx modding purposes and ca
 
 I used the geometry shader to add moss particles alongside the normal of the rock, and also experimented with layered moss used in Ryse in the fragment shader.
 
-![img1](../../../../assets/images/projects/mossShader/moss1.png)
+![img1](../../../../assets/images/projects/mossShader/moss1.PNG)
 
 Scene was made using Valve's Hammer editor in Source2. For the moss shader, the only thing I was responsible for was writing the shader to generate the moss, the moss textures, and shading on the moss. My shader uses Valve's shaders for lighting computation and standard shading on the rock material. All other assets including the rocks, trees, etc. are all made by Valve for Half-Life: Alyx.
 
-![img1](../../../../assets/images/projects/mossShader/moss2.png)
+![img1](../../../../assets/images/projects/mossShader/moss2.PNG)
 
 
 
