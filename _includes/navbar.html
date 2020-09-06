@@ -28,7 +28,7 @@
                {% else if forloop.last == false %}
                   <li class="bottom-border label li-hidden"><a href="{{ item.url }}">{{ item.title }}</a></li>
                {% else %}
-                  <li class="label li-hidden"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                  <li class="label li-hidden"><a href="{{site.baseurl}}/{{ item.url }}">{{ item.title }}</a></li>
                {% endif %}
             {% endfor %}
          </ul>
