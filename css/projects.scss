@@ -14,7 +14,7 @@
     height: auto;
     vertical-align: middle;
     position: relative;
-    padding-bottom: 55px;
+    padding-bottom: 32px;
 
     a {
         text-decoration: none;
@@ -64,7 +64,7 @@
         font-size: 19px;
         color: $dark-purple;
         margin-top: 0;
-        
+        margin-bottom: 0;
     }
 
     //For individual project wrapper
@@ -117,5 +117,9 @@
         }
 
         border-radius: 5px;
+    }
+
+    .work-description {
+        padding: 0px 0px 40px 22px;
     }
 }

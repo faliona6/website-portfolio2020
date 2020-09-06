@@ -9,6 +9,7 @@ hero-header: Fiona is a 3rd year computer science major at Cal Poly SLO, minorin
 projects-header: PROJECTS
 projects-subheader1: Personal
 projects-subheader2: Work
+work-description: Most of the internship work I've done is under NDA, but I would love to chat about it generally.
 
 ---
 
