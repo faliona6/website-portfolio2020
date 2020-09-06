@@ -19,7 +19,7 @@
     height: 100%;
     display: block;
     overflow: hidden;
-    padding: 0px 25px;
+    padding: 0px 50px;
 
     a {
         text-decoration: none;
@@ -36,12 +36,18 @@
 
         @include font-azo-black;
         color: $pale-pink;
-        font-size: 17px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        display: inline-block;
+
     }
 
-    .icons-container
+    .email-icon
     {
+        display:inline-block;
+        width: 30px;
+        padding: 0px;
 
     }
     

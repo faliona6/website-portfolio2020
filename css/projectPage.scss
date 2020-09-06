@@ -98,6 +98,19 @@
     padding: 24px;
     padding-top: 0px;
 
+    iframe {
+        @media #{$small} {
+            height: 290px;
+        }
+        @media #{$medium} {
+            height: 480px;
+        }
+        @media #{$large} {
+            height: 650px;
+        }
+      
+    }
+
     p {
         @include font-azo-normal;
         color: $dark-purple;

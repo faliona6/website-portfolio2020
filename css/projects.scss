@@ -30,14 +30,14 @@
         @include font-azo-black;
         font-size: 40px;
         margin-bottom: 0px;
-        padding-left: 39px;
+        padding-left: 22px;
     }
     h2 {
         @include font-azo-bold;
         color: $peach;
         font-size: 25px;
         margin-top: 5px;
-        padding-left: 39px;
+        padding-left: 22px;
 
     }
 
@@ -60,20 +60,26 @@
 
     h5 {
         @include font-azo-bold;
-        padding-left: 39px;
+        padding: 0px 22px;
         font-size: 19px;
         color: $dark-purple;
         margin-top: 0;
-
+        
     }
 
     //For individual project wrapper
     .projects-container {
-        text-align: center;
 
         @media #{$small} {
             width: auto;
+            text-align: center;
         }
+        
+        @media #{$large} {
+            text-align: left;
+            padding-left: 20px;
+        }
+
         a {
             transition: all 0.4s ease-in-out;
             opacity: 0.85;
@@ -91,7 +97,7 @@
         text-align: left;
         @media #{$small} {
             margin: auto;
-            padding: 20px 40px;
+            padding: 20px 20px;
         }
         @media #{$medium} {
             padding: 20px;

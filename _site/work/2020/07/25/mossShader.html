@@ -1,0 +1,124 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/fionasoetrisno/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+        <link rel="stylesheet" href=/fionasoetrisno/css/navbar.css>
+<script src=/fionasoetrisno/js/navbar.js></script>
+
+
+
+<div id="navbar" class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="/fionasoetrisno/"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/fionasoetrisno/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div style="height:37px" class="navbar-logo-wrapper">
+                <img onclick="enableBurgerMenu()" src= /fionasoetrisno/assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="/fionasoetrisno/#projects-container">PROJECTS</a></li>
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/fionasoetrisno//art">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="https://soundcloud.com/user-380690675">MUSIC</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/fionasoetrisno/about">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+   <div class="project-hero-container">
+              
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>MOSS SHADER</h1>
+                    <h3>Valve |  2020</h3>
+                    <img src="/fionasoetrisno/assets/images/projects/mossShader/hero.png">
+                </div>
+
+                <div class="hero-container">
+                    <h2>During my internship at Valve, I wanted to learn more about shaders in HL Alyx and wrote a procedural moss shader that can get added to any model. This shader was made for personal learning only, and is not used in-game.</h2>
+                    <h4>Using: HLSL, C++</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><h1 id="about-the-shader">About the Shader</h1>
+
+<p>This procedural moss shader is meant to be used for Alyx modding purposes and can be put on any object to add moss. The moss is added based on the normals of the object. There is a slider for how much moss coverage the artist wants on the rock.</p>
+
+<p>I used the geometry shader to add moss particles alongside the normal of the rock, and also experimented with layered moss used in Ryse in the fragment shader.</p>
+
+<p><img src="../../../../assets/images/projects/mossShader/moss1.png" alt="img1" /></p>
+
+<p>Scene was made using Valve’s Hammer editor in Source2. For the moss shader, the only thing I was responsible for was writing the shader to generate the moss, the moss textures, and shading on the moss. My shader uses Valve’s shaders for lighting computation and standard shading on the rock material. All other assets including the rocks, trees, etc. are all made by Valve for Half-Life: Alyx.</p>
+
+<p><img src="../../../../assets/images/projects/mossShader/moss2.png" alt="img1" /></p>
+
+</p1>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href=/fionasoetrisno/css/footer.css>
+
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <h1>Let's be in touch.</h1>
+        <h2>Contact me at: fiona.soetrisno@gmail.com</h2>
+        <div class="icons-container">
+            <a href="https://www.linkedin.com/in/fionasoetrisno">
+                <img src="/fionasoetrisno/assets/images/footer/icon-linkedin.svg">
+            </a>
+            <a href="https://www.github.com/faliona6">
+                <img src="/fionasoetrisno/assets/images/footer/icon-github.svg">
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

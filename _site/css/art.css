@@ -52,4 +52,10 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .art-projects-container img { padding: 20px 0px; max-height: 100vh; max-width: 100%; }
 
+@media (min-width : 0px) { .art-projects-container iframe { height: 290px; } }
+
+@media (min-width : 654px) { .art-projects-container iframe { height: 480px; } }
+
+@media (min-width : 1178px) { .art-projects-container iframe { height: 650px; } }
+
 /*# sourceMappingURL=art.css.map */

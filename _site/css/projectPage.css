@@ -38,6 +38,12 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .copy-wrapper { max-width: 1178px; margin-left: auto; margin-right: auto; vertical-align: middle; height: fit-content; padding: 24px; padding-top: 0px; }
 
+@media (min-width : 0px) { .copy-wrapper iframe { height: 290px; } }
+
+@media (min-width : 654px) { .copy-wrapper iframe { height: 480px; } }
+
+@media (min-width : 1178px) { .copy-wrapper iframe { height: 650px; } }
+
 .copy-wrapper p { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 200; color: #3c305c; font-size: 16px; }
 
 .copy-wrapper h1 { font-family: azo-sans-web, sans-serif; font-style: normal; font-weight: 600; letter-spacing: -0.5; color: #ec9892; font-size: 24px; padding-top: 20px; }

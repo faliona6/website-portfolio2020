@@ -128,4 +128,17 @@
         max-height: 100vh;
         max-width: 100%;
     }
+
+    iframe {
+        @media #{$small} {
+            height: 290px;
+        }
+        @media #{$medium} {
+            height: 480px;
+        }
+        @media #{$large} {
+            height: 650px;
+        }
+      
+    }
 }
