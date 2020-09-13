@@ -1,0 +1,126 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+        <link rel="stylesheet" href=/css/navbar.css>
+<script src=/js/navbar.js></script>
+
+
+
+<div id="navbar" class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="/"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div style="height:37px" class="navbar-logo-wrapper">
+                <img onclick="enableBurgerMenu()" src= /assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="/#projects-container">PROJECTS</a></li>
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/art">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="https://soundcloud.com/user-380690675">MUSIC</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/about">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+   <div class="project-hero-container">
+              
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>ASTROCODE VR</h1>
+                    <h3>SLO Hacks 2020 |  2019</h3>
+                    <img src="/assets/images/projects/astroCode/hero.png">
+                </div>
+
+                <div class="hero-container">
+                    <h2>AstroCode is a VR game made in 36 hours for SLO Hacks 2020. The goal was to teach younger students the logic behind coding in a fun and interactive way by commanding an astronut to get to it's goal. This was the teams first VR project.</h2>
+                    <h4>Using: C#, Unity, Oculus Integration</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><h1 id="demo">Demo</h1>
+<h2 id="watch-the-demo-and-view-the-code-on-github">Watch the demo and view the code on <a href="https://github.com/faliona6/boba-is-you-jar">github</a>.</h2>
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/Ob96PsFNwjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>AstroCode VR is an Oculus Rift Game that teaches the player how to code in a fun and exciting way. The game is set in a kid’s room in which the player’s imagined astronaut is stranded away from earth. Players must connect blocks of code together to write programs that will move their astronaut character back to earth.</p>
+
+<h1 id="about-the-game">About the Game</h1>
+
+<p>We were working in a team of 4 students for the hackathon. I did a lot of the level design, the building of the room, and 3D modeling the blocks and some furniture.</p>
+
+<p><img src="../../../../assets/images/projects/astroCode/blocks2.png" alt="img1" /></p>
+
+</p1>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href=/css/footer.css>
+
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <h1>Let's be in touch.</h1>
+        <h2>Contact me at: fiona.soetrisno@gmail.com</h2>
+        <div class="icons-container">
+            <a href="https://www.linkedin.com/in/fionasoetrisno">
+                <img src="/assets/images/footer/icon-linkedin.svg">
+            </a>
+            <a href="https://www.github.com/faliona6">
+                <img src="/assets/images/footer/icon-github.svg">
+            </a>
+        </div>
+        <h3>Website coded and designed by Fiona Soetrisno</h3>
+
+    </div>
+</div>
+
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>
