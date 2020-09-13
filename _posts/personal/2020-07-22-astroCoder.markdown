@@ -22,7 +22,7 @@ AstroCode VR is an Oculus Rift Game that teaches the player how to code in a fun
 
 We were working in a team of 4 students for the hackathon. I did a lot of the level design, the building of the room, and 3D modeling the blocks and some furniture.
 
-![img1](../../../../assets/images/projects/astroCode/blocks2.png)
+![img1](../../../../assets/images/projects/astroCode/blocks2.PNG)
 
 
 
