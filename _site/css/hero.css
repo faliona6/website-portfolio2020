@@ -14,6 +14,10 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .projects-container { background-color: #fff7f4; }
 
+.loading-screen { width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: #fac3cb; z-index: 100; display: flex; justify-content: center; align-items: center; transition: opacity 2s; }
+
+.fade { opacity: 0; z-index: -1; }
+
 .hero-wrapper { padding: 70px 30px 30px 30px; padding-top: 70px; margin-left: auto; margin-right: auto; max-width: 1178px; height: auto; vertical-align: middle; position: relative; }
 
 .hero-header { margin: auto; max-width: 550px; padding: 60px; font-size: 13px; text-align: center; }
