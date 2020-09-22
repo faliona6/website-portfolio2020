@@ -11,12 +11,14 @@ function done() {
         if (loadingScreen !== null) {
             loadingScreen.classList.add("fade");
         }
+        console.log("hee");
     }
 }
 
-
+console.log("uhhhh")
 // Polling for the sake of my intern tests
 var interval = setInterval(function() {
+    console.log("????")
     setTimeout('', 1000);
     console.log(document.readyState);
     if(document.readyState === 'complete') {

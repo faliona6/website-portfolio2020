@@ -6,17 +6,19 @@
 // The basic check
 function done() {
     if(document.readyState === 'complete') {
-
+        setTimeout('', 1500);
         var loadingScreen = document.getElementsByClassName("loading-screen-active")[0];
         if (loadingScreen !== null) {
             loadingScreen.classList.add("fade");
         }
+        console.log("hee");
     }
 }
 
-
+console.log("uhhhh")
 // Polling for the sake of my intern tests
 var interval = setInterval(function() {
+    console.log("????")
     setTimeout('', 1000);
     console.log(document.readyState);
     if(document.readyState === 'complete') {
