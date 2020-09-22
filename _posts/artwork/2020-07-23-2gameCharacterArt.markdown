@@ -5,7 +5,7 @@ categories: artwork
 tools: Paint Tool Sai
 description:
 ---
-![My helpful screenshot](../assets/images/art/NoraConceptArt.png)
+![My helpful screenshot](../assets/images/art/NoraConceptArt2.png)
 ![My helpful screenshot](../assets/images/art/ShiroConceptArt.png)
 
 
