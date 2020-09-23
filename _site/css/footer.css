@@ -14,7 +14,9 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .projects-container { background-color: #fff7f4; }
 
-.loading-screen-active { width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: #fac3cb; z-index: 100; display: flex; justify-content: center; align-items: center; transition: opacity 1.5s ease-in-out; opacity: 1; }
+.loading-screen-active { width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: #F5A29C; z-index: 100; display: flex; justify-content: center; align-items: center; transition: opacity 1.5s ease-in-out; opacity: 1; }
+
+.logo-animation { width: 400px; }
 
 .fade { opacity: 0; pointer-events: none; }
 

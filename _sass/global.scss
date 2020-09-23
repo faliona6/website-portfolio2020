@@ -83,13 +83,18 @@ html {
     top: 0;
     left: 0;
     position: fixed;
-    background-color:rgb(250, 195, 203);
+    background-color: #F5A29C;
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: opacity 1.5s ease-in-out;
     opacity: 1;
+}
+
+.logo-animation
+{
+    width: 400px;
 }
 
 .fade {
