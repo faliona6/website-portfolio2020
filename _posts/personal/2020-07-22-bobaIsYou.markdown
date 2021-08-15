@@ -14,7 +14,7 @@ madeWithDescription: "Using: Java"
 # How to Play
 ## Play the game and download it [here][github-download-link], and view the source code on my [github][github-link].
 
-Boba is You is a 2D puzzle game where you rearrange the text blocks in order to win and solve puzzles! 
+Boba is You, a parody of the game Baba is You, is a 2D puzzle game where you rearrange the text blocks in order to win and solve puzzles! 
 
 
 ![img1](../../../../assets/images/projects/bobaIsyou/lvl1.PNG)

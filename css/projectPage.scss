@@ -150,4 +150,19 @@
         max-width: 500px;
     }
 
+    .img-smaller {
+        padding: 5px 0px;
+
+        @media #{$small} {
+            width: 100%;
+        }
+        @media #{$medium} {
+            width: calc(50% - 3px);
+        }
+        @media #{$large} {
+            width: calc(50% - 3px);
+            min-width: 400px;
+        }
+    }
+
 }

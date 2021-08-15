@@ -1,0 +1,143 @@
+<html>
+   <head>
+        <link rel="stylesheet" href=/css/projectPage.css>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/favicon.ico">
+        <title>FIONA SOETRISNO</title>
+      <script src=/js/loading-screen.js></script>
+
+   </head>
+   <body>
+        <div class="loading-screen-wrapper loading-screen-active">
+    <img class="logo-animation" src="/assets/images/loading/FSLogoAnimation.gif">
+</div>
+        <link rel="stylesheet" href=/css/navbar.css>
+<script src=/js/navbar.js></script>
+
+
+
+<div id="navbar" class="bar">
+   <div class="content">
+       <div class="navbar-logo-container">
+            <a href="/"class="navbar-logo-wrapper">
+                 <img class="navbar-logo" src=/assets/images/navbar/logo.svg>
+            </a>
+        </div>
+
+      <!-- Hamburger Icon for mobile -->
+        <a  class="navbar-logo-container hamburger-icon-container">
+            <div style="height:37px" class="navbar-logo-wrapper">
+                <img onclick="enableBurgerMenu()" src= /assets/images/navbar/hamburgerLogo.svg type="image/svg+xml" class="burger">
+            </div>
+        </a>  
+
+
+      <div class="tabs tabs-hidden">
+         <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="/#projects-container">PROJECTS</a></li>
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/art">ART</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="https://soundcloud.com/user-380690675">MUSIC</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/about">ABOUT</a></li>
+               
+            
+         </ul>
+      </div>
+   </div>
+</div>
+
+   <div class="project-hero-container">
+              
+            <div class="hero-wrapper">
+                <div class="img-container">
+                    <h1>C++ RAYTRACER</h1>
+                    <h3>CSC 473 Project | Sep 2020</h3>
+                    <img src="/assets/images/projects/raytracer/output.png">
+                </div>
+
+                <div class="hero-container">
+                    <h2>For CSC 473, Advanced Rendering Techniques, I built a raytracer from scratch using C++. In order to learn about how raytracing worked, we built one using C++ instead of using the GPU. But in the end of the course we got to do a couple projects using Optix, a real-time raytracing engine.</h2>
+                    <h4>Using: C++</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-copy-container">
+            <div class="copy-wrapper">
+                <p1><h1 id="about-the-project">About the Project</h1>
+<h2 id="you-can-view-the-code-for-the-raytracer-on-my-github">You can view the code for the raytracer on my <a href="https://github.com/faliona6">github</a>.</h2>
+
+<p>The raytracer I built supported several features– rendering primitive shapes, 3d models, reflection, refraction, transformations, texturing, and emmissive materials. Below are some of the example outputs for my raytracer throughout the course.</p>
+
+<p><img src="../../../../assets/images/projects/raytracer/bunny1.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/textures.jpg" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/reflective.jpg" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/P3_sword.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/bug.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/skaterboi.png" alt="img1" class="img-smaller" /></p>
+
+<p>We used .ppm files as input to place the shapes and models in our 3D scene. I also created a C# script in Unity to create a ppm file based on shapes in the Unity 3D scene for easy placement, and I was able to create some fun renders with it.</p>
+
+<h1 id="final-project---volumes">Final Project - Volumes</h1>
+
+<p>For my final project, I wanted to create participating media using my renderer. This inclues fog, clouds, smoke, etc. I learned about how light gets scattered within the material, and also implimented a ray marching technique to calculate the density at every point. I added parameters such as densityMultiplier, lightAbsorption, lightColor, and Perlin Noise seed in order to create different variations of clouds.</p>
+
+<p><img src="../../../../assets/images/projects/raytracer/cloud.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/cloudFluffy.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/cloudPurple.png" alt="img1" class="img-smaller" />
+<img src="../../../../assets/images/projects/raytracer/cloudSmoke.png" alt="img1" class="img-smaller" /></p>
+
+</p1>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href=/css/footer.css>
+
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <h1>Let's be in touch.</h1>
+        <h2>Contact me at: fiona.soetrisno@gmail.com</h2>
+        <div class="icons-container">
+            <a href="https://www.linkedin.com/in/fionasoetrisno">
+                <img src="/assets/images/footer/icon-linkedin.svg">
+            </a>
+            <a href="https://www.github.com/faliona6">
+                <img src="/assets/images/footer/icon-github.svg">
+            </a>
+        </div>
+        <h3>Website coded and designed by Fiona Soetrisno</h3>
+
+    </div>
+</div>
+
+
+        <!-- Scroll Reveal Stuff -->
+        <script>
+            var optionsHero = {
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+                top: '50',
+                bottom: '50'
+            }
+            }
+            var optionsAbout = {
+            reset: false,
+            scale: 0.99,
+            origin: 'bottom', distance: '50px', duration: 1500
+            }
+            ScrollReveal().reveal('.project-copy-container', optionsAbout);
+        </script>
+
+   </body>
+
+   
+</html>

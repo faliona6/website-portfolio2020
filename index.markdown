@@ -4,7 +4,7 @@
 
 layout: home
 
-hero-header: Fiona is a 3rd year computer science major at Cal Poly SLO, minoring in Computing for Interactive Arts. She is an aspiring game developer and has a passion for making art and expanding worlds with code.
+hero-header: Fiona is a 4th year computer science major at Cal Poly SLO, minoring in Computing for Interactive Arts. She is an aspiring game developer and has a passion for making art and expanding worlds with code.
 
 projects-header: PROJECTS
 projects-subheader1: Personal

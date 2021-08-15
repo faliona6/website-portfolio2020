@@ -1,6 +1,6 @@
 // Slideshow state variables
 var curSlideIndex = 1; // start on 1, 0 is on the left
-var numOfSlides = 5;
+var numOfSlides = 6;
 var onCooldown = false;
 
 // Start functions for loading images into html
@@ -83,7 +83,6 @@ function SetOnClick(imgSlide, direction)
 
 function setCooldownFalse()
 {
-    console.log("cooldown fasle!")
     onCooldown = false;
 }
 
@@ -101,13 +100,10 @@ function OnClick()
     }
     var myVar = setTimeout(setCooldownFalse, 1500);
     onCooldown = true;
-    console.log("myVar", myVar);
 
-    console.log(this);
     var direction = this.direction;
     var slideshowContainer = document.getElementsByClassName("slideshow-container")[0];
     RemoveAllEventListenersFromParent(slideshowContainer);
-    console.log("going in this direction!:" + direction);
 
     // switch the slide classes
     // getting the previous and next slide indices
@@ -117,7 +113,6 @@ function OnClick()
 
     var prevPrevSlideIndex = prevSlideIndex - 1 < 0 ? numOfSlides - 1 : prevSlideIndex - 1;
     var nextNextSlideIndex = (nextSlideIndex + 1) % numOfSlides;
-    console.log(prevPrevSlideIndex, prevSlideIndex, curSlideIndex, nextSlideIndex,  nextNextSlideIndex);
 
     var toBeCurrentSlide, toBeNextSlide, toBeHidden, toBePrevSlide;
     
@@ -135,7 +130,6 @@ function OnClick()
         toBePrevSlide = curSlideIndex;
     }
 
-    console.log(toBeCurrentSlide, toBeNextSlide, toBeHidden, toBePrevSlide);
 
     // updating classes
     document.getElementById("slide_" + toBeCurrentSlide).className = "";
@@ -153,7 +147,6 @@ function OnClick()
     // going left to right
     if (direction < 0)
     {
-        console.log("slide left");
         document.getElementById("slide_" + toBeCurrentSlide).classList.add("slide-left-to-mid");
     }
     else{
@@ -175,7 +168,6 @@ function OnClick()
     // updating events
     SetOnClick(document.getElementById("slide_" + toBePrevSlide), -1);
     SetOnClick(document.getElementById("slide_" + toBeNextSlide), 1);
-    console.log("curSlide: ", curSlideIndex);
 
 }
 
@@ -211,11 +203,9 @@ function handleTouchMove(evt) {
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
             /* left swipe */ 
-            console.log("left swipe")
             OnClickRight();
         } else {
             /* right swipe */
-            console.log("left swipe")
             OnClickLeft();
 
         }                       
@@ -243,7 +233,6 @@ function RemoveAllEventListenersFromParent(parent)
 }
 
 document.addEventListener("DOMCOntentLoaded", function() {
-    console.log("DEBUGGGING IMAGESSS");
     alert('page is loaded');
 });
 

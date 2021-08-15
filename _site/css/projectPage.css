@@ -64,4 +64,12 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .copy-wrapper .gif { max-width: 500px; }
 
+.copy-wrapper .img-smaller { padding: 5px 0px; }
+
+@media (min-width : 0px) { .copy-wrapper .img-smaller { width: 100%; } }
+
+@media (min-width : 654px) { .copy-wrapper .img-smaller { width: calc(50% - 3px); } }
+
+@media (min-width : 1178px) { .copy-wrapper .img-smaller { width: calc(50% - 3px); min-width: 400px; } }
+
 /*# sourceMappingURL=projectPage.css.map */

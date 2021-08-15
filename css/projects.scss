@@ -108,7 +108,7 @@
     .project-thumbnail
     {
         @media #{$small} {
-            width: 100%;
+            width: calc(100vw - 110px);
             max-width: none;
         }
         @media #{$medium} {
