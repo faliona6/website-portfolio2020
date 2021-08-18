@@ -5,7 +5,7 @@ date:   2020-08-25 11:11:48 -0700
 month: 
 year: 2019
 categories: personal
-thumbnailPath: "projectCatalyst/thumb.PNG"
+thumbnailPath: "projectCatalyst/thumb.png"
 description: College Game Jam 2021
 heroImgPath: "projectCatalyst/hero.png"
 heroDescription: Project Catalyst was made for College Game Jam 2021. The goal was to create a fun game around the theme of connections. We wanted to add a bit of chemistry into the game, so you go around combining different elements together. The game was made by Fiona Soetrisno, John Manard, Worblir, Megan Belle Maun, and Lauren Nakamura.
@@ -22,8 +22,8 @@ Welcome to Project: Catalyst, an experiment in which you will help me combine th
 
 In this project, I worked on the player controller and animations, enemy AI, health system, and environment design.
 
-![img1](../../../../assets/images/projects/projectCatalyst/5.png){: .img-smaller}
-![img1](../../../../assets/images/projects/projectCatalyst/4.png){: .img-smaller}
+![img1](../../../../assets/images/projects/projectCatalyst/5.PNG){: .img-smaller}
+![img1](../../../../assets/images/projects/projectCatalyst/4.PNG){: .img-smaller}
 
 
 

@@ -43,7 +43,7 @@ Throughout your adventure, you talk with different characters from different dim
 
 There are also flashbacks that the player goes through to uncover more about their past.
 
-![img1](../../../../assets/images/projects/intervalCafe/2.png)
+![img1](../../../../assets/images/projects/intervalCafe/2.PNG)
 ![img1](../../../../assets/images/projects/intervalCafe/makingCoffee.gif){: .img-smaller}
 ![img1](../../../../assets/images/projects/intervalCafe/flashback.gif){: .img-smaller}
 
@@ -56,8 +56,8 @@ Once you recieve an item from each NPC character, you are able to feed the seed 
 I acted as the main programmer for the game and implimented a lot of the gameplay features. Some of the things I worked on are the branching dialogue system, text and UI animations, overall game loop system, and the flashback system.
 Initially we had such a large scope for the project, and branching dialogue needs a lot of systems to get it to work.
 
-![img1](../../../../assets/images/projects/intervalCafe/unityDialogue.png){: .img-smaller}
-![img1](../../../../assets/images/projects/intervalCafe/twineDialogue.png){: .img-smaller}
+![img1](../../../../assets/images/projects/intervalCafe/unityDialogue.PNG){: .img-smaller}
+![img1](../../../../assets/images/projects/intervalCafe/twineDialogue.PNG){: .img-smaller}
 
 Additionally, I also created several sprites for the game like the one below. In the dialogue system, characters can have different sprite emotions during dialogue, so all of the characters need sprites for all emotions.
 
