@@ -76,15 +76,12 @@ h1 {
         img {
             width: 600px;
             transition: all 1.3s cubic-bezier(.4,.04,.23,1.01), opacity 1.5s ease-in-out;
-
             grid-row-start: 1;
             position: absolute;
-
         }
         .slide-img-front {
             max-width: 100%;
             z-index:2;
-            margin-left: auto;
             margin-right: auto;
             transform: translate(48%);
             //transition: opacity 2s ease-in-out, all 1s ease-in-out;
